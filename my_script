@@ -1,0 +1,16 @@
+#! /usr/bin/env python
+
+# run the script in terminal --> python script1.py
+# owner group others permission code --> 777
+# r - 4, w - 2, x - 1
+# chmod 000 script1.py - No permission
+# chmod 700 script1.py - All for owner
+# chmod 755 script1.py - All for owner, rx for group n others
+
+# echo $PATH
+
+print("hello world")
+a = int(input('Please type a number'))
+b = int(input('A second humber'))
+
+print(a + b)
